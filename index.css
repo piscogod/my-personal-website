@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	overflow: hidden;
+}
+
+header {
+	background-color: transparent;
+}
+	#menu {
+		background-color: transparent;
+		height: 200px;
+	}
+		#menu_navbar .container {
+			width: 1750px;
+		}
+			#navbar {
+				margin-top: 80px;
+			}
+				#navbar li {
+					list-style: none;
+					padding: 5px;
+				}
+					#navbar li a {
+						color: #fff;
+						font-family: 'Open Sans', sans-serif;
+						font-size: 20px;
+					}
+						#navbar li #navbar_home {
+							border-bottom: 4px solid #fff;
+						}
+							#navbar li a:hover {
+								background-color: transparent;
+								border-bottom: 4px solid #fff;
+							}
+.jumbotron {
+	margin-top: -220px;
+	background-image: url('https://static.pexels.com/photos/21008/pexels-photo.jpg');
+	height: 1100px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+	.jumbotron .container {
+		margin-top: 340px;
+		text-align: center;
+	}
+		.jumbotron .container h1{
+			color: #fff;
+			font-family: 'Open Sans', sans-serif;
+		}
+			.jumbotron .container h2 {
+				color: #fff;
+				font-family: 'Open Sans', sans-serif;
+			}
+				.jumbotron .container2 {
+					margin-top: 360px;
+					text-align: right;
+					width: 1850px;
+				}
+					.jumbotron .container2 ul li {
+						list-style: none;
+						display: inline;
+						padding: 5px;
+					}
+						.jumbotron .container2 ul li a {
+							color: #fff;
+							text-decoration: none;
+							transition: all .25s ease-out;
+						}
+							.jumbotron .container2 ul li #twitter:hover {
+								color: #00aced;
+								transition: all .25s ease-out;
+							}
+								.jumbotron .container2 ul li #facebook:hover {
+									color: #3b5998;
+									transition: all .25s ease-out;
+								}
+									.jumbotron .container2 ul li #pinterest:hover {
+										color: #cb2027;
+										transition: all .25s ease-out;
+									}
